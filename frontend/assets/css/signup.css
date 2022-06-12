@@ -72,7 +72,7 @@ h3{
     top: 10px;
     color: #262626
 }
-.signupBox input[type="submit"]{
+.signup #submit{
     border: none;
     outline: none;
     height: 40px;
@@ -82,7 +82,7 @@ h3{
     border-radius: 20px;
     cursor: pointer
 }
-.signupBox input[type="submit"]:hover{
+.signup #submit:hover{
     font-size: 20px;
     background: #fbfafc;
     color: #59238F;

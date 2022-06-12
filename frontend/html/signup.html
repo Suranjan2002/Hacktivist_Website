@@ -8,33 +8,33 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="assets/css/signup.css" rel="stylesheet" />
+    <link href="../assets/css/signup.css" rel="stylesheet" />
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="signupBox"> 
-        <a href="index.html"><img class="user" src="assets/img/hero-logo.png" height="100px" width="100px"></a>
+        <a href="../html/index.html"><img class="user" src="../assets/img/hero-logo.png" height="100px" width="100px"></a>
         <h3>Sign Up</h3>
-        <form action="signup.php" method="post">
+        <form method="post">
             <div class="inputBox"> 
-                <input id="username" type="text" name="username" placeholder="Username"> 
-                <input id="name" type="text" name="name" placeholder="Name"> 
-                <input id="email" type="email" name="email" placeholder="Email ID"> 
-                <input id="password" type="password" name="password" placeholder="Password"> 
-                <input id="confirmpassword" type="password" name=" confirm Password" placeholder="Confirm Password"> 
+                <input id="username" type="text" name="username" placeholder="Username" required> 
+                <input id="name" type="text" name="name" placeholder="Name" required> 
+                <input id="email" type="email" name="email" placeholder="Email ID" required> 
+                <input id="password" type="password" name="password" placeholder="Password" required> 
+                <input id="confirmpassword" type="password" name=" confirm Password" placeholder="Confirm Password" required> 
             </div> 
         </form> 
         <div class="signup">
-            <button class="form-control btn btn-primary rounded submit px-3" id="submit">SignUp</button>
+            <button class="form-control submit" id="submit">SignUp</button>
         </div>
-        <div class="text-center">
+        <div class="text-center pt-2">
             <p class="text-center">Have an account? 
-            <a href="login.html">Log In</a></p>
+            <a href="../html/login.html">Log In</a></p>
         </div>   
     </div> 
-    <script src="signin.js"></script>
+    <script src="../assets/js/signin.js"></script>
 </body>
 </html>
 
