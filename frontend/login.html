@@ -19,21 +19,22 @@
         <h3>Log In</h3>
         <form action="login.php" method="post">
             <div class="inputBox"> 
-                <input id="uname" type="text" name="Username" placeholder="Username"> 
-                <input id="pass" type="password" name="Password" placeholder="Password"> 
+                <input id="email" type="text" name="email" placeholder="email"> 
+                <input id="password" type="password" name="password" placeholder="password"> 
             </div> 
             <div class="form-group text-center">
                     <a href="#">Forget Password<br> </a>
             </div>
         </form> 
         <div class="login">
-            <input type="submit" name="" value="Login">
+            <button type="submit" class="form-control btn btn-primary rounded submit px-3" id="login">Sign In</button>
         </div>
         <div class="text-center">
             <p class="text-center">Not have an account? 
             <a href="signup.html">Sign Up</a></p>
         </div>   
     </div> 
+    <script src="login.js"></script>
 </body>
 </html>
 
